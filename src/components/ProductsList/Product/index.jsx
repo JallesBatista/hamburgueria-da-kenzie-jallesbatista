@@ -1,4 +1,4 @@
-import { ButtonDefaultGreen } from "../../../styles/button";
+import { ButtonDefaultGreen } from "../../ButtonStyled/button";
 import { ProductCardStyled } from "./styles";
 
 export default function Product({ product, handleClick }) {

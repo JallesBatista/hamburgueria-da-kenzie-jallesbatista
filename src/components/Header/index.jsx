@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ButtonDefaultGreen } from "../../styles/button.js";
+import { ButtonDefaultGreen } from "../ButtonStyled/button.js";
 import { HeaderContainer, HeaderStyled } from "./styles";
 function Header({ products, setFilteredProducts }) {
   const [searchContent, setSearchContent] = useState("");

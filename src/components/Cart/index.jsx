@@ -1,4 +1,4 @@
-import { ButtonDefaultGrey } from "../../styles/button";
+import { ButtonDefaultGrey } from "../ButtonStyled/button";
 import CartList from "./CartList";
 import { CartNoItemStyled } from "./CartNoItensStyled/styles";
 import { CartResumeStyled } from "./CartResumeStyled/styles";

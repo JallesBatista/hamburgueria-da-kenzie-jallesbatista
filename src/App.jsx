@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./styles/reset.css";
 import "./App.css";
 import Header from "./components/Header";
 import ProductsList from "./components/ProductsList";
