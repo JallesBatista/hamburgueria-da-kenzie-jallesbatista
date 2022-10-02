@@ -23,5 +23,9 @@ export const CartStyled = styled.div`
   @media (min-width: 768px) {
     width: 45%;
     max-width: 360px;
+    height: max-content;
+
+    position: sticky;
+    top: 30px;
   }
 `;
