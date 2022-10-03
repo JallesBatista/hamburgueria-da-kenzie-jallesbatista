@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import Global from "./styles/global";
 import Header from "./components/Header";
 import ProductsList from "./components/ProductsList";
 import { api } from "./services/api";
@@ -52,7 +52,8 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <>
+      <Global />
       <Header products={products} setFilteredProducts={setFilteredProducts} />
       <main>
         <ProductsList
@@ -65,7 +66,7 @@ function App() {
           setCurrentSale={setCurrentSale}
         />
       </main>
-    </div>
+    </>
   );
 }
 
